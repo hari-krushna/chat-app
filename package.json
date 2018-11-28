@@ -1,0 +1,20 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Basic chat application using websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-view-app": "cd app && npm run serve"
+  },
+  "author": "Hari Krushna",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
